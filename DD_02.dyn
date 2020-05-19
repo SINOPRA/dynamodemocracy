@@ -1,0 +1,462 @@
+{
+  "Uuid": "9cff633b-4c3c-4794-b5bf-c56185078045",
+  "IsCustomNode": false,
+  "Description": null,
+  "Name": "DD_02",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "Math": {
+        "Key": "DSCore.Math",
+        "Value": "DSCoreNodes.dll"
+      }
+    }
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "",
+      "Id": "8905d66b712e42e2bd6072e05d236db2",
+      "Inputs": [],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"Wahlkreis 1\";\nGueltigeStimmen;\nMandate;",
+      "Id": "3f55b7042a1c45da81bb6cb1b8b68219",
+      "Inputs": [
+        {
+          "Id": "966bcd73ed46487887026debea84c088",
+          "Name": "GueltigeStimmen",
+          "Description": "GueltigeStimmen",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d7fd9bbdce3f42f5b078861a380a6422",
+          "Name": "Mandate",
+          "Description": "Mandate",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "8fc19eb225974075aa098b4d3c0c1d91",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "aa3627e3f9dd4e7485a5676a297c2812",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "3bc4d112317b40e1b4dd73c0d26f7b30",
+          "Name": "",
+          "Description": "Value of expression at line 3",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "600333;",
+      "Id": "63e89027242b4862a2214861c0409017",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "e21902a3ec204b89aa426c9af816cd78",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "11;",
+      "Id": "f0a842756502475f8d65dba1e35e32b7",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "10d445a7c44b4af291dda2ffaea90b1b",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "Math.Round(i1/i2);",
+      "Id": "1f8e08fe52ff4b049684bc634746254c",
+      "Inputs": [
+        {
+          "Id": "dba53031637644bf8346893e04396285",
+          "Name": "i1",
+          "Description": "i1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "82812a4af70a41b1aff0708539c944a7",
+          "Name": "i2",
+          "Description": "i2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "056398d75b0f491f83dff66dbefd0f32",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "55000;",
+      "Id": "8b3cfa28e71f476ba07013b0c157331f",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "adcd47033fbb4f31aa8d721fdd8ac9e4",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "7000;",
+      "Id": "29564662f35d4baeabff1a6b922ee38b",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "e7b8a193039b48f0a54b3dd903dc9376",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "Math.Floor(i2/i1);",
+      "Id": "88595c5288f647d1abb545a1699f1edf",
+      "Inputs": [
+        {
+          "Id": "96de94d8d72444a6aa5298339ed6c275",
+          "Name": "i2",
+          "Description": "i2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "66df3462e5b04bc8982db82a708d2ac8",
+          "Name": "i1",
+          "Description": "i1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "89657a9925b74d0cbd1dfc378d0f0d16",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "Math.Floor(i2/i1);",
+      "Id": "d09e585acfac44679a11e5d08f89a871",
+      "Inputs": [
+        {
+          "Id": "799370e252e74aa2a7f94e50ba844a60",
+          "Name": "i2",
+          "Description": "i2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a0a9eda513dc499a8a75499b7ed52358",
+          "Name": "i1",
+          "Description": "i1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "ea7383f85cd14c14b14ed26371d8dcfb",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "aa3627e3f9dd4e7485a5676a297c2812",
+      "End": "dba53031637644bf8346893e04396285",
+      "Id": "a862884a472d418f9d6779968dee00f3"
+    },
+    {
+      "Start": "3bc4d112317b40e1b4dd73c0d26f7b30",
+      "End": "82812a4af70a41b1aff0708539c944a7",
+      "Id": "a393d2d8fece452583f3fc9cf5ae312f"
+    },
+    {
+      "Start": "e21902a3ec204b89aa426c9af816cd78",
+      "End": "966bcd73ed46487887026debea84c088",
+      "Id": "953adb205def42b99a948a272147d3be"
+    },
+    {
+      "Start": "10d445a7c44b4af291dda2ffaea90b1b",
+      "End": "d7fd9bbdce3f42f5b078861a380a6422",
+      "Id": "6b89b27f1bcf4978b0c73ee916a51dad"
+    },
+    {
+      "Start": "056398d75b0f491f83dff66dbefd0f32",
+      "End": "66df3462e5b04bc8982db82a708d2ac8",
+      "Id": "96d00c0e20d54fbfa0b2b17915ce6200"
+    },
+    {
+      "Start": "adcd47033fbb4f31aa8d721fdd8ac9e4",
+      "End": "96de94d8d72444a6aa5298339ed6c275",
+      "Id": "44b4ee7146da4cc1b6edd6ff0e22fbf1"
+    },
+    {
+      "Start": "adcd47033fbb4f31aa8d721fdd8ac9e4",
+      "End": "a0a9eda513dc499a8a75499b7ed52358",
+      "Id": "0c239658eba441888d62259ca3652af9"
+    },
+    {
+      "Start": "e7b8a193039b48f0a54b3dd903dc9376",
+      "End": "799370e252e74aa2a7f94e50ba844a60",
+      "Id": "ac6b978a71704dcaaf0eb91b5b5370a2"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.3.0.5885",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "8905d66b712e42e2bd6072e05d236db2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -594.04870424365026,
+        "Y": 174.42985675513455
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Wahlzahl",
+        "Id": "3f55b7042a1c45da81bb6cb1b8b68219",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -248.44384741618217,
+        "Y": 303.91855082992322
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Gueltige Stimmen i. Landeswahlkreis",
+        "Id": "63e89027242b4862a2214861c0409017",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -597.96627121832148,
+        "Y": 275.42411024122322
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Mandate d Landes",
+        "Id": "f0a842756502475f8d65dba1e35e32b7",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -481.78938127144812,
+        "Y": 361.44384741618205
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Wahlzahl",
+        "Id": "1f8e08fe52ff4b049684bc634746254c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 83.96089796396052,
+        "Y": 321.47183062962154
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Stimmen i. Regionalwahlkreis Partei A",
+        "Id": "8b3cfa28e71f476ba07013b0c157331f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 46.410118634503533,
+        "Y": 462.13204234259467
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Stimmen i. Regionalwahlkreis Partei B",
+        "Id": "29564662f35d4baeabff1a6b922ee38b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 48.618236892813911,
+        "Y": 613.92966965252322
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Mandate Regionalwahlkreis",
+        "Id": "88595c5288f647d1abb545a1699f1edf",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 367.6799488879318,
+        "Y": 460.20487316031262
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Mandate Regionalwahlkreis",
+        "Id": "d09e585acfac44679a11e5d08f89a871",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 372.65771124273158,
+        "Y": 612.34803432550734
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "c29cfc99cea34ecc830e8df74911fcaf",
+        "Title": "Wahlzahl",
+        "Nodes": [
+          "8905d66b712e42e2bd6072e05d236db2"
+        ],
+        "Left": -604.04870424365026,
+        "Top": 92.429856755134551,
+        "Width": 248.85666666666668,
+        "Height": 175.0,
+        "FontSize": 60.0,
+        "InitialTop": 174.42985675513455,
+        "InitialHeight": 123.0,
+        "TextblockHeight": 72.0,
+        "Background": "#FF848484"
+      }
+    ],
+    "X": 681.24802775845365,
+    "Y": 47.173824642850718,
+    "Zoom": 0.910486800477933
+  }
+}
